@@ -6,7 +6,6 @@ body{
 
 /* common shared styles starts */
 .btn{
-    /* background-color: palevioletred; */
     border-radius: 8px;
     background: #E55473;
     color: #FFF;
@@ -14,6 +13,11 @@ body{
     font-weight: 700;
     padding: 20px 43px;
     border: 0;
+}
+.img-background{
+    width: 465px;
+    height: 540px;
+    border-radius: 300px 300px 0px 0px;
 }
 
 
@@ -78,4 +82,56 @@ body{
     height: 100%;
 }
 
+/* main section styles starts */
+
+/* feature-section styles starts */
+.featured-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.featured-desc{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.featured-images{
+    display: flex;
+    gap: 30px;
+}
+.image1{ 
+    position: relative;
+    background-color: rgba(196, 28, 109, 0.15);
+ }
+ .image2{ 
+     background: rgba(5, 151, 160, 0.15);
+ }
+ .image3{
+    position: relative;
+    background: rgba(71, 125, 17, 0.15);
+ }
+
+ .image1 img{
+    position: absolute;
+    bottom: 0;
+    margin: 0px 25px;
+    width: 310px;
+    height: 428px;
+
+}
+.image2 img{
+    width: 370px;
+    height: 370px;
+    margin: 140px 70px 200px 50px;
+}
+.image3 img{
+    position: absolute;
+    margin: 0px 65px;
+    bottom: 0;
+    width: 314px;
+    height: 471px;
+}
 
